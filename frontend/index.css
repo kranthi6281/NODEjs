@@ -1,17 +1,29 @@
 h1{
-    color:red;
+    color:green;
 }
 
 #home-card{
     text-align: center;
      
-    border-color: black;
+    border-color: purple;
     border-style: solid;
-    border:3px solid black;
+    border:3px solid purple;
 }
 #home-card:hover{
-    background-color: blueviolet;
+    background-color:lavender;
 }
 #p2{
     color: blue;
+}
+#nav{
+    text-align: center;
+    background-color: red;
+    height: 25px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+#nav a{
+    margin: 0px 5px;
+    text-decoration: none;
+    color: white;
 }
