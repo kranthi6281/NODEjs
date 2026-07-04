@@ -1,16 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Being Infinity</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+}
+
+/* Top Left */
+.gear{
+    position:absolute;
+    top:20px;
+    left:20px;
+    font-size:30px;
+}
+
+/* Top Right */
+.status{
+    position:absolute;
+    top:20px;
+    right:20px;
+    font-size:20px;
+}
+
+/* Heading at Top */
+h1{
+    text-align:center;
+    margin-top:70px;
+    font-size:60px;
+}
+
+/* Content */
+.content{
+    text-align:center;
+    margin-top:40px;
+}
+
+p{
+    font-size:24px;
+    margin-bottom:30px;
+}
+
+.search-box{
+    display:inline-flex;
+    align-items:center;
+    border:1px solid #ccc;
+    border-radius:25px;
+    padding:10px 15px;
+}
+
+.search-box input{
+    border:none;
+    outline:none;
+    font-size:18px;
+    width:400px;
+    margin-left:10px;
+}
+</style>
+
 </head>
 <body>
-     
-    <span>&#9881;</span>
-    <span>&#x2022; online | &#x1f552; -ms</span>
-    <h1>Being Infinity</h1>
+
+<div class="gear">⚙</div>
+
+<div class="status">• online | 🕒 -ms</div>
+
+<h1>Being Infinity</h1>
+
+<div class="content">
     <p>One million phrases. Four algorithms. Prefix Based Auto Suggest</p>
-    <span>&#128269;<input placeholder="Start typing to search"</span>
+
+    <div class="search-box">
+        🔍
+        <input type="text" placeholder="Start typing to search">
+    </div>
+</div>
+
 </body>
 </html>
